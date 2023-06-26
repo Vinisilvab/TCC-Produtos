@@ -1,0 +1,9 @@
+@media screen and (min-width: 360px) and (max-width: 428px){
+    .menu{
+        display: none !important;
+    }
+    .menus
+    {
+        justify-content: center;
+    }
+}
