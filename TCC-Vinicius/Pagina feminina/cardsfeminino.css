@@ -22,11 +22,13 @@ body{
   
   .card {
     width: 100%;
-    min-height: 690px;
+    min-height: 710px;
     border: 1px solid #ccc;
     border-radius: 1px;
     overflow: hidden;
     box-sizing: inherit;
+    box-shadow: 8px 10px 10px rgb(245,235,235);
+    border-radius: 10px;
   
   }
 
@@ -69,7 +71,6 @@ body{
   }
   .card-img:hover .imagem{
     width: 110%;
-   
     position: absolute;
   }
  
@@ -77,8 +78,3 @@ body{
  
 
   
-  @media (max-width: 768px) {
-    .grid {
-      grid-template-columns: 1fr;
-    }
-  }

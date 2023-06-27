@@ -4,7 +4,7 @@
 
 
 body{
-  background-color: rgb(247,243,243);
+  background-color: whitesmoke;
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif ;
 }
@@ -28,6 +28,8 @@ body{
     border-radius: 1px;
     overflow: hidden;
     box-sizing: inherit;
+    box-shadow: 8px 15px 15px rgb(245,235,235);
+    border-radius: 10px;
   
   }
 
@@ -77,8 +79,4 @@ body{
  
 
   
-  @media (max-width: 768px) {
-    .grid {
-      grid-template-columns: 1fr;
-    }
-  }
+

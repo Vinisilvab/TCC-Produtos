@@ -7,3 +7,49 @@
         justify-content: center;
     }
 }
+
+
+                    /*responsivo para ipad mini*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   .card{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+   }
+   .grid{
+    grid-template-columns: 2fr;
+    justify-items: center;
+   }
+  
+  }
+
+
+
+                    /*reponsivo para ipad air*/
+
+
+  @media screen and (min-width: 820px) and (max-width: 1180px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    .grid{
+        grid-template-columns: 2fr;
+    }
+   
+   }
+
+                 /*reponsivo para celular*/
+
+
+   @media screen and (min-width: 375px) and (max-width: 667px) {
+    .grid {
+      grid-template-columns: 2fr ;
+    }
+    .card{
+      display: flex;
+      flex-direction: column;
+    }
+  }
