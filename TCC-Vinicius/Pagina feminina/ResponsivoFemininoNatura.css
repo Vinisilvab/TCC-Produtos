@@ -53,3 +53,14 @@
       flex-direction: column;
     }
   }
+
+  @media screen and (min-width: 360px) and (max-width: 640px) {
+    .grid {
+      grid-template-columns: 2fr ;
+      justify-items: center;
+    }
+    .card{
+      display: flex;
+      flex-direction: column;
+    }
+  }
