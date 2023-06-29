@@ -53,6 +53,9 @@
     .card{
       display: flex;
       flex-direction: column;
-      min-height: 620px;
+      min-height: 630px;
+    }
+    .d-block{
+      min-height: 140px;
     }
   }
