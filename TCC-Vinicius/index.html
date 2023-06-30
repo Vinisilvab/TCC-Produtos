@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="botao.css">
     <link rel="stylesheet" href="ResponsivoNatura.css">
     <link rel="stylesheet" href="Input.css">
+    <link rel="stylesheet" href="Cardsmodal.css">
   </head>
     
     
@@ -26,15 +27,6 @@
       </div>
   </nav>
     
-
-
-  
-      <!--botao de pesquisa-->
-
-      <div class="CampoDePesquisa">
-        <input id="Pesquisar" tipe="text" name="Pesquisa" placeholder="Pesquise seu perfume!" onkeyup="pesquisar">
-    </div>
-   
       
       <!-- Carrosel -->
       
@@ -74,7 +66,7 @@
         <div class="card-container">
           <div class="grid">
 
-            <div class="card">
+            <div class="card" id="AbrirModal" >
               <div class="card-img">
                 <img class="imagem" src="imagens perfume natura/kaiak.jpg" alt="Produto 1" >
               </div>
@@ -82,13 +74,30 @@
                 <h3>kaiak Desodorante Colônia <br> Masculino</h3>
                 <p>
                   Kaiak tem uma fragrância hiper aquática. Combinação icônica de notas aromáticas, cítricas e aquosas, que juntas trazem um potente frescor. </p>
+                  <h2>Ver mais...</h2>
                 </div>
-                <div class="card-botao">
-                  <a href=""><button>Comprar</button></a>
-                </div>
-            </div>
+              </div>
 
-          
+              <!--card modal-->
+              <div class="cardModal" id="meuModal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <div class="card-img">
+                    <img class="imagem1" src="imagens perfume natura/kaiak.jpg" alt="Produto 1" >
+                  </div>
+                  <div class="card-body1">
+                    <h3>kaiak Desodorante Colônia <br> Masculino</h3>
+                    <h3>R$</h3>
+                    <p>Para mais informações de compra clique no botão abaixo. </p>
+                    </div>
+                    <br>
+                    <div class="card-botao">
+                      <a href=""><button>Comprar</button></a>
+                    </div>
+                </div>
+              </div>
+
+              
             <div class="card">
               <div class="card-img">
                 <img class="imagem" src="imagens perfume natura/kaiak aventura.jpg" alt="Produto 2">
@@ -96,9 +105,7 @@
               <div class="card-body">
                 <h3>Kaiak Aventura Desodorante Colônia Masculino </h3>
                 <p>A combinação perfeita entre água, sol e mata. Frescor cítrico e vibrante da bergamota combinado com notas de musk e madeiras cremosas...  </p>
-              </div>
-              <div class="card-botao">
-                <a href=""><button>Comprar</button></a>
+                <h2>Ver mais...</h2>
               </div>
             </div>
 
@@ -110,9 +117,7 @@
               <div class="card-body">
                 <h3>Kaiak Pulso Desodorante Colônia Masculino</h3>
                 <p>Um frescor energético e impactante. Notas aquosas, ervas, especiarias frescas, sândalo e cedro pulsam na composição desta fragrância.</p>
-              </div>
-              <div class="card-botao">
-                <a href=""><button>Comprar</button></a>
+                <h2>Ver mais...</h2>
               </div>
             </div>
 
@@ -124,9 +129,7 @@
               <div class="card-body">
                 <h3>Kaiak Urbe Desodorante Colônia Masculino</h3>
                 <p>A linha Kaiak traz criações olfativas inspiradas no universo aquático, com propostas atemporais e proprietárias, É referência no território de frescor.</p>
-              </div>
-              <div class="card-botao">
-                <a href=""><button>Comprar</button></a>
+                <h2>Ver mais...</h2>
               </div>
             </div>
 
@@ -138,9 +141,7 @@
               <div class="card-body">
                 <h3>Paz e Humor Desodorante Colônia</h3>
                 <p>Paz e Humor traz o contraste da energia dos cítricos e a vibração dos acordes frutais com a força das notas aromáticas e o irresistível poder da baunilha.</p>
-              </div>
-              <div class="card-botao">
-                <a href=""><button>Comprar</button></a>
+                <h2>Ver mais...</h2>
               </div>
             </div>
 
@@ -152,9 +153,7 @@
               <div class="card-body">
                 <h3>Humor a Dois Desodorante Colônia</h3>
                 <p>Humor a Dois traz o contraste provocante do fresco com o picante, envolvidos por notas amadeiradas. O toque final vem pelo Breu Branco e Priprioca.</p>
-              </div>
-              <div class="card-botao">
-                <a href=""><button>Comprar</button></a>
+                <h2>Ver mais...</h2>
               </div>
             </div>
 
@@ -166,9 +165,7 @@
               <div class="card-body">
                 <h3>Humor On-line Desodorante Colônia</h3>
                 <p>Uma fragrância inovadora com um contraste de notas cítricas e especiarias para celebrar a vida e extravasar o humor.É uma mistura de energia do pomelo e pimenta rosa.</p>
-              </div>
-              <div class="card-botao">
-                <a href=""><button>Comprar</button></a>
+                <h2>Ver mais...</h2>
               </div>
             </div>
 
@@ -180,9 +177,7 @@
               <div class="card-body">
                 <h3>Natura Homem Essence Deo Parfum</h3>
                 <p>Uma combinação elaborada e sofisticada esculpida com o coração das madeiras mais nobres como cedro e patchouli, enriquecida com a elegância das notas ambaradas e do cacau.</p>
-              </div>
-              <div class="card-botao">
-                <a href=""><button>Comprar</button></a>
+                <h2>Ver mais...</h2>
               </div>
             </div>
 
@@ -194,9 +189,7 @@
               <div class="card-body">
                 <h3>Essencial Elixir Masculino</h3>
                 <p>Sinta na pele o poder da fusão entra as madeiras do cedro e patchouli com a inovação de couro e o calor do cumaru, ingrediente da biodiversidade brasileira, exala sofisticação e presença.</p>
-              </div>
-              <div class="card-botao">
-                <a href=""><button>Comprar</button></a>
+                <h2>Ver mais...</h2>
               </div>
             </div>
 
@@ -208,9 +201,7 @@
               <div class="card-body">
                 <h3>Essencial Oud Deo </h3>
                 <p>A imponênciado oud, madeira mais nobre do mundo, E a sua sensualidade da copaíba, uma madeira da biodiversidade brasileira, com um toque exótico de especiarias.</p>
-              </div>
-              <div class="card-botao">
-                <a href=""><button>Comprar</button></a>
+                <h2>Ver mais...</h2>
               </div>
             </div>
 
@@ -224,11 +215,8 @@
                 <p>Biografia nasceu para celebrar a história mais importante
                   que existe: a sua. Uma história que contém mil histórias,
                   que combina passado, presente e futuro. São fragrâncias
-                  atemporais e marcantes.
-                </p>
-              </div>
-              <div class="card-botao">
-                <a href=""><button>Comprar</button></a>
+                  atemporais e marcantes.</p>
+                <h2>Ver mais...</h2>
               </div>
             </div>
 
@@ -243,9 +231,7 @@
                   mesmo. Um convite para encarar o mundo e suas
                   oportunidades, encontrar a sua melhor versão e ser percebido
                   pelos outros.</p>
-                </div>
-                <div class="card-botao">
-                  <a href=""><button>Comprar</button></a>
+                  <h2>Ver mais...</h2>
                 </div>
             </div>
           </div>

@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(247, 243, 243);
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 200px 250px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr 2fr;
+}
+
+.Localizacao{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.WhatsApp{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+
+}
+
+.Telefone{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 250px;
+    height: 210px;
+    margin: 10px;
+
+}
+
+.Email{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 250px;
+    height: 210px;
+    margin: 10px;
+}
+
+.imagens{
+    padding: 5px;
+    margin: auto;
+    width: 50px;
+}
+.imagen-l{
+    padding-top: 5px;
+    padding-left: 15px;
+    margin: auto;
+    width: 50px;
+}
+.imagen-w{
+    padding-top: 5px;
+    padding-left: 15px;
+    margin: auto;
+    width: 50px;
+}
+
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    width: 950px;
+    height: 556px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6bc;
+    margin:10px;
+}
+
+.btn{
+    border: 2px solid #fff;
+    background-color: #6bc;
+    color: black;
+    font-size: large;
+    padding: 5px;
+    margin-left: 156px;
+}
+
+.inputs{
+    width: 98%;
+    height: 30px;
+    text-align: center;
+}

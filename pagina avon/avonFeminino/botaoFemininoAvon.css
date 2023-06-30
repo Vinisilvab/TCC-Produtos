@@ -1,0 +1,34 @@
+.card-botao{
+    position: absolute;
+    bottom: 20px;
+    left: 1rem;
+    right: 1rem;
+    box-sizing: border-box;
+}
+.card-botao  a button{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+.card-botao button{
+    position: relative;
+    border: 2px solid rgb(255, 160, 176);
+    border-radius: 10px;
+    background-color: rgb(255, 241, 229);
+    transition: 1s;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 100%;
+    height: 45px;
+}
+
+
+.card-botao:hover button{
+    border: 2px solid rgb(190, 2, 121);
+    border-radius: 5px;
+    background-color: rgb(255, 170, 215);
+    
+
+}
