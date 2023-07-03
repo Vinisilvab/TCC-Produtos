@@ -17,6 +17,10 @@
     flex-direction: column;
     width: 60%;
    }
+   .botaoLink a button{
+    width: 30%;
+    height: 50px;
+  }
    .grid{
     grid-template-columns: 2fr;
     justify-items: center;
@@ -35,6 +39,10 @@
         flex-direction: column;
         width: 60%;
     }
+    .botaoLink a button{
+      width: 30%;
+      height: 50px;
+    }
     .grid{
         grid-template-columns: 2fr;
         justify-items: center;
@@ -49,12 +57,15 @@
      .card{
        display: flex;
        flex-direction: column;
-       min-height: 680px;
+       min-height: 720px;
+      }
+      .botaoLink a button{
+        width: 30%;
+        height: 50px;
       }
       .grid {
         grid-template-columns: 2fr ;
         justify-items: center;
-      }
   }
 
 

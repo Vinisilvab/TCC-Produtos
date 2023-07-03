@@ -73,6 +73,18 @@ body{
     width: 110%;
     position: absolute;
   }
+
+  .preco{
+    position: absolute;
+    bottom: 65px;
+    right: 50%;
+  }
+  .preco h2{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    
+  }
  
   
  
